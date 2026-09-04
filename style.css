@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    background-color: #0B1F33;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+img {
+    width: 120px;
+} 
+
+a:hover {
+    color: #007FCF;
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
