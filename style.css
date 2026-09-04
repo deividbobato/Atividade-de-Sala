@@ -1,4 +1,43 @@
-<<<<<<< HEAD
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    background-color: #0B1F33;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+img {
+    width: 120px;
+}
+
+a:hover {
+    color: #007FCF;
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* FOOTER */
+
 .footer {
     background-color: #0f172a;
     color: #cbd5e1;
@@ -53,6 +92,7 @@
     padding-top: 20px;
     border-top: 1px solid #334155;
     font-size: 0.9em;
+}
 
 /*seção principal */
 #serviços {
@@ -82,3 +122,4 @@
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
